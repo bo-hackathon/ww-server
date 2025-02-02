@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer');
-const OpenAI = require("openai"); // ✅ Correct import for OpenAI v4.x
+const OpenAI = require("openai"); // ✅
 require('dotenv').config();
 
 const app = express();
