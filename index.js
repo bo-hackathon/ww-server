@@ -1,9 +1,11 @@
 const express = require('express');
 const multer = require('multer');
+const cors = require('cors'); //🏳️🏁
 const OpenAI = require("openai"); // ✅
 require('dotenv').config();
 
 const app = express();
+app.use(cors());
 const port = process.env.PORT || 5000;
 
 // Multer config 🪣⚙️
